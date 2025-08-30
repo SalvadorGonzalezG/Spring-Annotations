@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Getter
 @ConditionalOnBean(value = {
-        
+
 })
 public class GauntletServiceImpl implements IGauntletService {
 
